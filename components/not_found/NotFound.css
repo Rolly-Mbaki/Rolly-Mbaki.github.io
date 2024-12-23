@@ -1,0 +1,16 @@
+.notFoundContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.notFoundContainer h1{
+    margin: 0;
+}
+
+.notFoundImg{
+    height: 300px;
+}
