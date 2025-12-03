@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Header.css'
 import { FaBars } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const HEADER = () => {
   const [isMobile, setIsMobile] = useState<boolean>(false)
@@ -48,7 +49,12 @@ const HEADER = () => {
 
   return (
     <div className='navbar'>
-      <a className='navbarLink' href="">Web Projects</a>
+      <div className='navbarLink'>
+        <Link to="/">Home</Link>
+      </div>
+      <div className='navbarLink'>
+        <Link to="webProjects">Web Projects</Link>
+      </div>
       <a className='navbarLink' href="">Graphic Designs</a>
       <a className='navbarLink' href="">About me</a>
       <a className='navbarLink' href="">Contact</a>
