@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import ROOT from '../components/root/Root'
 import HOME from '../components/home/Home'
 import NOT_FOUND from '../components/not_found/NotFound'
 import WEBPROJECTS from "../components/webProjects/webProjects";
 
-const Router = createBrowserRouter([
+const Router = createHashRouter([
     {
         path: "/",
         element: <ROOT />,
