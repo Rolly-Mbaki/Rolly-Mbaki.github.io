@@ -53,7 +53,7 @@ const HEADER = () => {
         <Link to="/">Home</Link>
       </div>
       <div className='navbarLink'>
-        <Link to="webProjects">Web Projects</Link>
+        <Link to="/webProjects">Web Projects</Link>
       </div>
       <a className='navbarLink' href="">Graphic Designs</a>
       <a className='navbarLink' href="">About me</a>
